@@ -5,13 +5,11 @@ import java.util.Scanner;
 public class aaaa {
     public static void main(String[] args) {
 
-        boolean a, b, c;
-        a = b = c = true;
+        for (int i = 1; i < 5; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
 
-        if( !a || ( b && c ) ) {
-            System.out.println("If executed");
-        } else {
-            System.out.println("else executed");
         }
-
     }}
