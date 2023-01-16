@@ -16,7 +16,14 @@ public class task2 {
        }
 
 
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Do you want a credit card?");
+            String userInput=sc.next();
+            if(userInput.equalsIgnoreCase("yes")){
+                break;
+            }
 
+        }
     }
 
 

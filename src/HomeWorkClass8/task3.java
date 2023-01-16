@@ -8,23 +8,22 @@ public class task3 {
         // provided by a user and then from that range prints the sum of the even and odd integers.
 
         Scanner sc=new Scanner(System.in);
-        int evensum = 0 ;
-        int oddsum = 0 ;
-        System.out.println("Enter the number:");
+        System.out.println("Please, enter 2 numbers starting point and ending point");
+        int start=sc.nextInt();
+        int end=sc.nextInt();
+        int evenSum=0;
+        int oddSum=0;
 
-        for(int i= sc.nextInt(); i>0; i=sc.nextInt()) {
-
-            if(i % 2 == 0) {
-                evensum+=i ;
+        for (int i = start; i <end ; i++) {
+            if(i%2==0){
+               evenSum+=i;
+            }else{
+               oddSum=oddSum+i;
             }
-            else {
-                oddsum+=i ;
-            }
-
-            System.out.println("Sum of even number is :"+evensum);
-            System.out.println("Sum of odd number is :"+oddsum);
-
-
 
         }
-}}
+        System.out.println("sum of even numbers "+evenSum);
+        System.out.println("sum of odd numbers "+oddSum);
+
+}
+}
