@@ -41,5 +41,13 @@ public class Task2 {
             }
 
         }
+        System.out.println("**************************");
+
+        String [] countries={"USA","Spain","Italy","Ukraine","France"};
+        String [] capitals={"Washington","Madrid","Rome","Kyiv","Paris"};
+        for (int i = 0; i < countries.length; i++) {
+            System.out.println("The capital of " +countries[i]+" is "+capitals[i]);
+
+        }
     }
 }

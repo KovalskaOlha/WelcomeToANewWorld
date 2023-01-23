@@ -7,10 +7,16 @@ public class Task8 {
 
         int first=0;
         int second=1;
-        int third = second+first;
-        first=second;
-        second=third;
-        int count=0;
+        int n=10;
+        System.out.print(first+" "+second);
+        for (int i = 2; i <n ; i++) {
+            int third = second+first;
+            System.out.print(" "+third);
+            first=second;
+            second=third;
+
+
+        }
 
 
     }
