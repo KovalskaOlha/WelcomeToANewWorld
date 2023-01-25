@@ -4,27 +4,24 @@ import java.util.Scanner;
 
 public class aaaa {
     public static void main(String[] args) {
+
         int[][] a = {
-                {1,1,2}, //sum = 4
-                {3,1,2}, //sum = 6
-                {3,5,3}, //sum = 11
-                {0,1,2}  //sum = 3
+                {-5,-2,-3,7},
+                {1,-5,-2,2},
+                {1,-2,3,-4}
         };
-        int sumRow1=0;
-        for( int i=0; i==0; i++){
-            for (int j=0; j<=2; j++){
-                sumRow1=sumRow1+a[i][j];
-
+        int [] rowSum = new int [a.length];
+        for (int i=0; i<a.length; i++) {
+            int sum = 0;
+            for (int j = 0; j < a[i].length; j++) {
+                sum += a[i][j];
             }
-            System.out.println(sumRow1);
+            rowSum[i]=sum;
         }
-        int sumRow2=0;
-        for (int i = 1; i==1; i++) {
-            for (int j = 0; j <=2; j++) {
-                sumRow2= sumRow2+ a[i][j];
-
-            }
-            System.out.println(sumRow2);
+        for (int i=0; i<rowSum.length; i++){
+            System.out.println(rowSum[i]);
         }
     }
+
+
 }
