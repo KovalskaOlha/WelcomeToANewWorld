@@ -1,0 +1,53 @@
+Methods in Java:
+it just a collection of java statements and blocks of code
+like if else loops, println etc.
+
+Why should we learn about methods:
+1) allows us to simplify large code as we can divide the
+logic into smaller parts by creating methods for them build method
+one by one and later on combine them to build the complete
+application.
+2) methods allow us to reuse code.
+3) methods allow us to be flexible.
+
+How can we create Methods?
+There are 2 types built-in and user defined.
+                Built-in methods?
+The methods which are designed by Java developers for example
+ the println(), nextInt() methods in Scanner class length () present in String
+ class they are all built-in methods.
+             User Defined Methods:
+  They methods that we write.
+  Methods which return smth when we called and other which do not return smth when
+  we called them.
+
+  int add( int a, int b){
+  return a+b;
+  }
+  int ===> return type of a method
+  add====> name of the method
+  (int a, int b)=====> parameters of the method or the input tp the method
+  {   } ====>> body of the method
+
+  Rules:
+  return type and the value that we are returning from a method should match
+  we can only assign methods to variables of same type
+  =======================================================
+
+  There are tree types of Variables with respect to their scope
+  ~~~~~~~~~~~~Local variable:
+      if the variable is created inside a block of code like
+      methods, loops, if condition they are called local variables.
+  !!!!!!!!!UPSIDE: local occupy the memory for the shortest period of time
+      you should always try to write code with a help of local variables
+  !!!!!!!!!DOWNSIDES: Local variable can not be accessed outside the block
+  in which they are created. They have very limited scope
+  ~~~~~~~~~~~~~~~~Instance variables:
+        All the variables which are created inside a class BUT outside of
+        methods are called instance variables.
+    !!!!UPSIDE: We can use them in all the instance methods of that class,their
+    scope is larger than local variables
+    !!!!!DOWNSIDE: they stay longer in the memory as compared to local variables
+  ~~~~~~~~~~~~~~~Static variables:
+      Always have the keyword STATIC and are outside the method
+

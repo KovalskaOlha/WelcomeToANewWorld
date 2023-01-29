@@ -13,7 +13,7 @@ public class StringDemo8 {
         for (int i = 0; i < str.length(); i++) {
             if(str.charAt(i)=='a'){
               count++;
-            System.out.println(str.charAt(i)+ " ");
+            System.out.print(str.charAt(i)+ " ");
 
         }
 
