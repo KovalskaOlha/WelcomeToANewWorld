@@ -1,0 +1,49 @@
+There are tree types of Variables with respect to their scope
+  ~~~~~~~~~~~~Local variable:( the smallest scope)
+      if the variable is created inside a block of code like
+      methods, loops, if condition they are called local variables.
+  !!!!!!!!!UPSIDE: local occupy the memory for the shortest period of time
+      you should always try to write code with a help of local variables
+  !!!!!!!!!DOWNSIDES: Local variable can not be accessed outside the block
+  in which they are created. They have very limited scope
+  ~~~~~~~~~~~~~~~~Instance variables:( can be shared in class and methods)
+        All the variables which are created inside a class BUT outside of
+        methods are called instance variables.
+    !!!!UPSIDE: We can use them in all the instance methods of that class,their
+    scope is larger than local variables
+    !!!!!DOWNSIDE: they stay longer in the memory as compared to local variables
+  ~~~~~~~~~~~~~~~Static variables:( THE LARGEST SCOPE:within the objects, classes, methods)
+      Always have the keyword STATIC and are outside the method.
+ !!!!!!!!!UPSIDE: only occupy one memory location from the RAM even though we
+ created 1000 objects of that class.
+         they can be used in any block of code inside the class
+         they can be accessed in any methods of a class
+         they can also be accessed with the help of any object of the class
+         they have the most wide scope
+ !!!!!!!!!!DOWNSIDE:  they are loaded the memory when a class is loaded
+ even though you don't use them.
+ =================================================================
+ =================================================================
+ =================================================================
+ Access modifiers?
+   Access modifiers are some keywords in java that we can use to control
+   the access of variables, methods and classes.
+ There are 4 access:
+ - private
+ -protected
+ -default
+ -public
+ And there are 3 keywords that we use to control the access
+ 1.Private
+ 2.Protected
+ 3.Public
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PRIVATE
+ if we write the private keyword with a variable or a method or a class,
+ we can access that variable or method or class within the same class
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DEFAULT
+ is not a keyword. when we don't write any access modifiers with variable
+ or methods or classes, default access is applied automatically by java,
+ which means these varizble method or class can be access inside any other
+ class which is present inside the same package
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PUBLIC
+ any class in project can have access
