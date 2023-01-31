@@ -6,6 +6,7 @@ public class task2 {
     to all classes within your project and accessible by class name.*/
 
    public String a(String b){
+       //return new StringBuilder(String b).reverse().toString();
         StringBuilder st=new StringBuilder(b);
         st.reverse();
         String reversed=st.toString();
