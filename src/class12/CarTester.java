@@ -10,6 +10,7 @@ public class CarTester {
         bmw.years=2023;
         bmw.color="Grey";
         bmw.moveForward();
+        System.out.println(bmw.color+bmw.model);
 
 
         Car audi=new Car();

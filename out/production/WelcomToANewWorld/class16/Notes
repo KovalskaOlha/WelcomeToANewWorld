@@ -43,7 +43,7 @@ There are tree types of Variables with respect to their scope
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DEFAULT
  is not a keyword. when we don't write any access modifiers with variable
  or methods or classes, default access is applied automatically by java,
- which means these varizble method or class can be access inside any other
+ which means these variable method or class can be access inside any other
  class which is present inside the same package
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PUBLIC
  any class in project can have access
