@@ -1,10 +1,10 @@
 package HomeWork19;
 
 public class Teacher {
-    String name;
-    int age;
+    public String name;
+    public int age;
 
-   static  void beHappy(){
+    void beHappy(){
         System.out.println("Teacher is always in a good mood");
     }
     public void beAngry(){
@@ -18,8 +18,8 @@ public class Teacher {
     }
 }
 class MathTeacher extends Teacher{
-    String name;
-    int age;
+    String homework;
+    int exp;
 
     void loveMath(){
         System.out.println("Math teacher adore Math");
@@ -29,8 +29,8 @@ class MathTeacher extends Teacher{
     }
 }
 class ChemistryTeacher extends Teacher{
-    String name;
-    int age;
+    String test;
+    int id;
     void loveChemistry(){
         System.out.println("Chemistry is a big love))");
     }
@@ -39,8 +39,8 @@ class ChemistryTeacher extends Teacher{
     }
 }
 class PianoTeacher extends Teacher{
-    String name;
-    int age;
+    String schedule;
+    int year;
     void loveMusic(){
         System.out.println("Teacher loves music");
     }

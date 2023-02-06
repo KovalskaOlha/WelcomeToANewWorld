@@ -12,6 +12,8 @@ public class TeacherTest {
        t.age=36;
 
        MathTeacher mt=new MathTeacher();
+       mt.name="Nicol";
+       mt.age=23;
        mt.count();
        mt.loveMath();
        mt.beAngry();

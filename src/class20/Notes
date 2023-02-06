@@ -1,0 +1,38 @@
+This keyword refers to the current class/obj/instance
+
+Inheritance
+What it is? - process when subclass acquires properties
+and behavior from the super class
+
+Why to use it? for code reuseability, readability,
+eliminate code redundancy
+
+how to implement? using Extends keyword
+
+class Parent{
+}
+class Child extends Parent{
+}
+
+Inheritance Types:
+single - 1 child 1 parent
+multilevel - grandparent-parent-child
+hierarchial - 1 parent -multiple children
+
+Can a child class have multiple PARENTS? - Multiple Inheritance
+  using class concept - NO
+
+  ACCESS MODIFIERS:
+  public => protected =>default => private
+
+  Private members( variables and methods) do not PARTICIPATE in the inheritance
+
+  ***************Variables Syntax:********************
+
+    Access modifieres     OR nonAccess modifiers(optional) dataType name;
+  f.e.   public/protected     static                       int       i;
+
+  ****************Method Syntax:**********************
+
+  access modifier or nonAccess modifier (optional) returnType name(){...}
+f.e. public/protected  static                       void      hello(){..}
