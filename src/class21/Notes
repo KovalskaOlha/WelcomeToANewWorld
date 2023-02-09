@@ -1,0 +1,23 @@
+Super keyword:
+Is used to refer to a parent class members like fields methods and
+constructors.
+   When we should use Super or This keyword:
+when ever same field or method exist inside the parent and child class.
+we can use super keyword to explicitly refer to parent class variable
+method or constructor.
+
+NOTE:
+By default java prefer local variables then instance variable
+from the same class after that the instance variables or method
+from the parent class.
+
+METHOD OVERLOADING
+Method overloading happens when the same name method exist in a class
+with different parameters
+We can overload in 3 different ways:
+~~~~~ we can change the number of parameters
+~~~~~ we can change the data type
+~~~~~ we can change the sequence of the parameters
+
+Why should we overload a method or constructor?
+clean code and flexibility to the end user

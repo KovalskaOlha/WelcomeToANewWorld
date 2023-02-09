@@ -1,0 +1,33 @@
+OVERLOADING METHOD:
+
+It's mechanism in Java that allows us to have same method name with different
+parameters. Parameters can be different in number,type and sequence.
+Why we should overload a method?
+ 1)  Method overloading allows us to reuse same method name again and again that we dont'
+have to come up with different method names if we are doing the same thing again
+and again.
+ 2)  Allows us to write clean code.
+
+How to overload a method:
+  We can overload a method by redefining it with different parameters.
+
+
+OVERRIDING METHOD:
+It's a mechanism in Java that allows a subclass or child class to provide
+a specific implementation of a method.
+Why we should override a method?
+If a child class does not like the implementation of the parent class it
+has the flexibility that can override the method
+Syntax of overriding?
+no, only requirement ==>> there must be a parent child relationship between
+two classes.
+
+RULES:
+  1) to override a method there must be parent child relationship between two classes
+  2) if something cant be inherited we cant override. for example private
+  methods and constructions
+  3)visibility of the method can be increased. For example is mth has default
+  access or protected access we can make it public, but we cant make it private.
+
+!!!!!!!!!!If the method is STATIC we re declare in the child class the method not overriding
+(exactrly the same things but behind the scene the work is different) We simply use the different terminology

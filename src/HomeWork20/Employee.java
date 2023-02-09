@@ -22,11 +22,11 @@ public class Employee {
 }
 
 class FullTime extends Employee{
-   int workingH;
+    int workingH;
 
-   void salary(){
-       System.out.println("Our salary is bigger");
-   }
+    void salary(){
+        System.out.println("Our salary is bigger");
+    }
     FullTime(String gender, String name, int age) {
         super(gender, name, age);
     }
