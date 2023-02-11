@@ -16,8 +16,9 @@ OVERRIDING METHOD:
 It's a mechanism in Java that allows a subclass or child class to provide
 a specific implementation of a method.
 Why we should override a method?
+
 If a child class does not like the implementation of the parent class it
-has the flexibility that can override the method
+has the flexibility that can override the method(modify the method)
 Syntax of overriding?
 no, only requirement ==>> there must be a parent child relationship between
 two classes.
@@ -28,6 +29,16 @@ RULES:
   methods and constructions
   3)visibility of the method can be increased. For example is mth has default
   access or protected access we can make it public, but we cant make it private.
+  4) private method don't participate in inheritance
+  5) if we want to override smth we must recreate that exact method inside the child
+  class and can have a different implementation only access modifier can be different.
+  It can have more visibility then the method inside the parent class
 
 !!!!!!!!!!If the method is STATIC we re declare in the child class the method not overriding
-(exactrly the same things but behind the scene the work is different) We simply use the different terminology
+(exactly the same things but behind the scene the work is different) We simply use the different terminology
+
+***tip: If you want to create the constructor automatically, you right click the code => Generate =>
+Constructors => Select both of instance fields you would like to create as a constructor => OK => It will be created automatically.
+
+COMMAND***tip: CTRL + O => Takes us to the window that shows us options that can perform specific tasks for us.
+(an options to override the available methods)

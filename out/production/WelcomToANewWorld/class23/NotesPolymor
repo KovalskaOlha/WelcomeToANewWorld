@@ -1,0 +1,11 @@
+When we achieve the poly with a help with overriding its call
+dynemic polimorphism
+
+When we achieve the poly with a help with overloading its call
+static polimorphism
+
+Final keyword when used with a variable the Value will not be changed
+when used with a method no one can override that method
+when used with a class no class can inherit from it.
+99% final keyword is used with a static keyword  That is how we make a constance
+
