@@ -9,7 +9,8 @@ public class Parent {
    // }
 
     public static void main(String[] args) {
-       Parent p= new Parent();
+
+        Parent p= new Parent();
     }
     public void hello(){
         System.out.println("public method hello from parent class");

@@ -1,11 +1,31 @@
-When we achieve the poly with a help with overriding its call
-dynemic polimorphism
 
-When we achieve the poly with a help with overloading its call
-static polimorphism
+  Polymosphism: allows us to perform some actions in different ways. There are 2 types of
+  polymorphism:
+  early binding or  compile time
+   runtime and late binding
+
+
+    When we achieve the poly with a help with overriding its call
+dynemic polimorphism(runtime)
+
+  When we achieve the poly with a help with overloading its call
+static polimorphism(early binding or  compile time)
+
+How it can help us write better code?????
+~~~~~ allows us to write less code and call multiple methods
+         *Syntax*
+     1) for the static polymorphism we only need to overload method
+     2) for the dynamic polymorphism we need to extend from a class we need to
+     override the methods from the parent class that we want to us in polymorphism
+
+
 
 Final keyword when used with a variable the Value will not be changed
 when used with a method no one can override that method
 when used with a class no class can inherit from it.
 99% final keyword is used with a static keyword  That is how we make a constance
-
+There are three main uses of the final keyword
+1) we can't change the value of variable which is assign as final
+when we have to create constants then we declare the variables as final
+2) we can't override the method as it is declared as final
+3) can be used with the classes as well. no other class can inherit this class

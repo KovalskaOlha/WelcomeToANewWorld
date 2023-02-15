@@ -18,6 +18,10 @@ Create objects of child classes and store them into array. Loop through each obj
     }
 }
 class Apple extends Computer{
+
+    public void play(){
+        System.out.println("time play ");
+    }
     @Override
     public void ram() {
         System.out.println("Apple computer has a Random Access Memory");
@@ -32,7 +36,10 @@ class Apple extends Computer{
     public void motherboard() {
         System.out.println("Apple computer has motherboard");
     }
+
+
 }
+
 class Lenovo extends Computer{
     @Override
     public void ram() {
@@ -89,6 +96,15 @@ class TestComputers{
             x.gpu();
             x.ram();
             x.motherboard();
+
+            if(x instanceof Apple){
+                Apple app=(Apple)x;// converting var c back to an apple obj
+                app.play();
+            }
+
         }
+        // if we want to call a specific meth from child class
+       // Apple app=(Apple)x;
+       // app.play();
     }
 }

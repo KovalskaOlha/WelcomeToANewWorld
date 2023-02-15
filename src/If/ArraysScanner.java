@@ -16,14 +16,14 @@ public class ArraysScanner {
 
     static int [][] reduce10(int [][]a){
 
-        for (int i = 0; i <=a.length; i++) {
+        for (int i = 0; i <a.length; i++) {
             for (int j = 0; j <a[i].length ; j++) {
 
                 System.out.print((a[i][j]-10)+ " ");
             }
             System.out.println();
         }
-        return reduce10(a);
+        return a;
 
     }
 
