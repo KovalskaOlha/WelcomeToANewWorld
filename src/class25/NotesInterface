@@ -6,6 +6,10 @@ In Java we can achieve this in two ways.
 
 Interface:
    is very similar to a abstract class !!special after Java8!!
+   It is a contract between unrelated classes, we can use it to achieve
+   abstraction. All variables in interface by default are public static and final.
+   (constant variable)
+   All the methods are public by default and abstract as well
  We can have private methods,static methods,default methods,abstract method
    But we can't have instance fields in an interface.
    *No constructors
@@ -19,7 +23,7 @@ Interface:
    abstraction with the help of INTERFACES.
 
    By default interface is abstract and public.We don't need
-   to use keywords exept( implements and interface)
+   to use keywords except( implements and interface)
 
 
 

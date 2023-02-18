@@ -14,6 +14,7 @@ public class MovableTester {
         Flyable []fly={new Car(),new Dog()};
         for(Flyable y:fly){
             y.fly();
+
         }
     }
 }
