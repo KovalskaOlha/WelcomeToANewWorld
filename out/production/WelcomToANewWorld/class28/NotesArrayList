@@ -1,0 +1,49 @@
+ArrayList is the part of collection of frameworks. It is just a collection
+  of classes and interfaces that helps us store and manage objects in the
+  form of collections.
+  for example: ArrayList, LinkedList
+  these classes make it easier to manage data as they have ready-made
+  methods that we can just use.
+
+Wrapper classes:
+  we can use primitive data types as objects with the help of
+  wrapper classes. We want to do it because primitive data types are not
+  supposed by the classes in Collection framework like ArrayList.
+
+Boxing:
+ converting primitive data type to its corresponding wrapper type
+ or object type. boxing was manually and now is autoboxing
+ Compiler converting automatically.
+  Autoboxing just assign wrapper type to a primitive type variable
+  and the conversion will happen automatically
+
+Boxing:
+     It is the process of converting primitive data types to its corresponding wrapper type or object type.
+  Integer i = new Integer (10)    => Boxing
+  int one = I;                    => Unboxing
+
+AutoBoxing:
+     It says that we just have to assign a wrapper type to a primitive type of variable and conversion will happen automatically.
+  Character gf = ‘a’;     => Autoboxing
+  char ch = gf;           => Auto-unboxing
+
+ArrayList(class): limit 2.4B( max size that can store int)
+  ArrayList is a part of collections framework, we can store single objects
+  inside arrayList. It works very similar how array works but its dynamic
+  in nature which means it can grow and shrinks its size automatically. Unlike array
+  We have built-in methods that we can use to manipulate the obj that we store inside that arrayList
+
+Diamond operator <>:
+  are also called angle brackets "<>". They are used to specify the name of
+  the class whose objects we will be storing inside the classes which belong
+  to collections framework or any other class which uses java generics.
+
+ArrayList VS LinkedList
+if in your code most of the time you use getMethod and you don't add or
+remove elements from in between then you should always use ArrayList!
+if most of the time you add or remove elements from in between and don't use
+getMethod then you should use LinkedList.
+
+LinkedList don't use Array beside the scene
+
+

@@ -1,0 +1,18 @@
+Array or ArrayList??
+a lot of building methods are present in ArrayList
+a lot flexibility
+But performance and speed is more better in Array
+If we are looking for speed so we should go with Array
+Array occupies 4 times less memory than ArrayList
+As a tester we dont care about the memory, nowadays memory is cheap
+
+
+int=> primitive but the class is Integer
+byte=>Byte
+it's a convention classes always with Uppercase
+
+boxing and unboxing in Wrapped classes
+when we use a prim data type we box them inside the wrapper classes and used them with c
+collection framework
+in primitive to wrapper class >> boxing
+when we get the data back from classes in primitive >> unboxing

@@ -6,10 +6,10 @@ public interface WebDriver {
     String getTitle();
 
 }
-interface RemoteWebDriver{
+interface RemoteWebDriver extends WebDriver{
 void navigate();
 }
-interface TakesScreenshot{
+interface TakesScreenshot extends  WebDriver{
 void getScreenshot();
 }
 
