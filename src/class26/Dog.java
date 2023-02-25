@@ -36,3 +36,10 @@ public class Dog {
         this.breed = breed;
     }
 }
+class Dogtester{
+    public static void main(String[] args) {
+        Dog dog=new Dog("Kuku","white","maltipu");
+        String name=dog.getName();
+        System.out.println(name);
+    }
+}

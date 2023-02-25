@@ -1,0 +1,30 @@
+Iterator:
+Iterator is an interface if you want to remove add
+something or planing to do an operation which can
+change the size at run time than we should use iterator
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~SETS
+
+*HashSet:
+  Upside:FAST
+  does not allow the duplicate value, and don't retain insertion  order
+  If we want to remove the duplicate HASH is very good option
+*LinkedHashSet:
+  DO retain the insertion the order!And ALSO remove the duplicates
+  DOWNSIdE: slower than HashSet
+*TreeSet:
+  Remove duplicates and print in alphabetical order A,B,C... or 1,2,3...
+  Keeps the data sorted
+  DOWNSIdE: the slowest
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~MAPS
+    Allows to store info with labels
+* HashMap<String,Integer>
+    we specify the type of data that we are going to store
+    if we want to add smth method is .put()
+    We store 2 values( key and value)
+*LinkedHashMap
+   maintain the order
+*TreeMap
+   will sort the data according to the keys
+
+Maps and Arrays is very important in testers life
