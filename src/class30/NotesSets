@@ -1,0 +1,22 @@
+Sets:
+  Sets do not allow duplicate values. There are a lot of types
+  Three main are:(another example of polymorphism)
+  Same methods with different behaviors
+  1)HashSet
+        -speed is the faster of all
+        -does not maintain the insertion order
+  2)LinkedHashSet
+         -maintains the insertion order
+         -slower than HashSet
+  3)TreeSet
+        -sorted the data in an alphabetic order, or 1,2,3,4
+        -its slower than all
+
+Map:
+  Instead of 1 value we can store 2 value(Key and value)
+  Map is a data structure but has some attributes that
+  make it special. Map is not a part of collection framework.
+   1)HashMap
+   2)LinkedHashMAp
+   3)TreeMap
+   the behavior exact same as the Sets

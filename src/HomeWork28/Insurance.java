@@ -91,6 +91,7 @@ class InsuranceTest{
 
         for (Insurance x:obj) {
             x.cancelInsurance();
+            x.cancelInsurance();
             System.out.println(x.getQuote());
            // System.out.println(x.cancelInsurance());
 
