@@ -1,0 +1,60 @@
+FileHandling:
+  process of reading a and writing the data through java code.
+  To read or write the data:
+  1.first we need to know the path or location where we will be reading or writing that file.
+  2.we need to navigate to that location or to bring the file into the memory so
+  that java program can process the data from that file.
+  Classes that helps Java to read the data :
+        FileInputStream
+  to write the data:
+       FileOutputStream
+  3.we need to know about a class that knows how to read and write the data from
+  specific file. For example we use Properties class when we have to read the data
+  from the .properties file. We use XSSFWorkbook to read and write the data from the excel files
+
+Why do we learn about FileHandling?
+  1)we will be storing data like username, passwords, URLs, type of browsers etc
+  in configuration files
+  2)when we need to perform data driven testing we will be storing and reading
+  all the data from files like xlsx or csv files
+
+How to read/write data from files
+   1. get the path
+   2. use FileInputStream
+
+
+**************EXCEPTIONS*******************
+********************************************
+
+What are Exception?
+  Exceptions are runtime issues(it dont give a syntax errors) that can stop normal flow of our prorgams
+  and can abruptly terminate the program which is very bad and leads to bad user
+  experience
+1) Checked exception
+2) Unchecked
+
+ExceptionHandling:
+   We stop the program from terminating abruptly and we try to mitigate the
+   issue we provide a backup code and convert the error message to simple text
+
+
+System.out.println("Line1");
+        System.out.println("Line2");
+        System.out.println("Line3");
+        System.out.println("Line4");
+        System.out.println("Line5");
+        System.out.println("Line6");
+        System.out.println(10/0);---------> Exception in thread "main" java.lang.ArithmeticExcep
+        System.out.println("Line7");
+        System.out.println("Line8");
+        System.out.println("Line9");
+        System.out.println("Line10");
+
+
+         try{
+                    System.out.println(10/0);=====>plan A
+                }catch (Exception e){
+                    System.out.println(e);=======>plan B
+                }
+
+

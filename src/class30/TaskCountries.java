@@ -1,8 +1,6 @@
 package class30;
 
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class TaskCountries {
     public static void main(String[] args) {
@@ -25,6 +23,8 @@ public class TaskCountries {
             var entry=iterator.next();
             System.out.println(entry.getKey()+" "+entry.getValue());
         }
+
+
 
 
     }

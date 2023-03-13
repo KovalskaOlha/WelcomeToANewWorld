@@ -1,6 +1,7 @@
 package class30;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Set;
 
 public class MapDemo4 {
@@ -25,6 +26,7 @@ public class MapDemo4 {
         allKeys.removeIf(x->x.length()>7);
         System.out.println(allKeys);
         System.out.println(makeup);
+
 
     }
 
